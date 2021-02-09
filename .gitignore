@@ -1,0 +1,4 @@
+.idea
+.env
+.docker/database/data
+app/code/res/static/fontawesome/

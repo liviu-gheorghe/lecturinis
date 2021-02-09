@@ -1,0 +1,150 @@
+#carousel_image {
+    height: calc(100vh - 60px);
+}
+
+#carousel_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+
+#image_overlay {
+    position: absolute;
+    /*top: -100%;*/
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: rgba(0,0,0,.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#parallax_container {
+    background: linear-gradient(103deg, #0068bb -33%, #6400a9 92%);
+    width: 100vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#image_overlay div {
+    font-size: 30px;
+    color:#fff;
+}
+
+#parallax_title {
+    font-size: 25px;
+    color: #fff;
+    margin: 10px;
+}
+
+
+.arrow_down_button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 10px;
+    position: absolute;
+    bottom: 20px;
+}
+
+
+
+.section_title {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.carousel {
+    flex-basis: 50%;
+    height: 700px;
+    margin:50px 0;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.anchor_box {
+    flex-basis: auto;
+}
+.anchor_box a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 20px 10px;
+}
+.carousel .anchor_box {
+    min-width: 100px;
+    max-width: 150px;
+    border: solid #eee 1px;
+}
+
+#homepage_carousels {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 0 10%;
+
+}
+
+#homepage_carousel_01 {
+    background: linear-gradient(103deg, #0068bb -33%, #6400a9 92%);
+}
+
+#homepage_carousel_02 {
+    background-color: #000;
+}
+
+@media only screen and (max-width: 1200px) {
+    #carousel_image img{
+        display: none;
+    }
+
+    #image_overlay {
+        display: none;
+    }
+
+    #homepage_carousels {
+        margin: 0 0;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #parallax_container {
+        display: none;
+    }
+}
+
+.carousel_title {
+    font-size: 24px;
+    height: 150px;
+}
+
+.stats_value {
+    font-size: 100px;
+    margin: 10px 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #homepage_carousels {
+        flex-direction: column;
+        margin: 0;
+    }
+    .carousel {
+        margin: 0;
+    }
+}

@@ -1,0 +1,4 @@
+#RewriteEngine on
+##RewriteRule ^/app/code/(.*) /$1
+#RewriteRule "^/(.*)" "/app/code/$2"
+#DirectoryIndex index.php index.html
