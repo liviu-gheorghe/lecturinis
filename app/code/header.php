@@ -3,7 +3,7 @@
     <div id="header">
 
         <ul id="logo_container">
-            <li id="logo">Lecturinis</li>
+            <li id="logo"><a href="/"><img src="res/img/cover.png" style="height: 60px;" alt=""/></a></li>
         </ul>
 
         <ul id="links">

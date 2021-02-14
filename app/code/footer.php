@@ -7,7 +7,7 @@
 
         <div class="footer_col">
             <div class="col_title">
-                <div id="footer_title">Lecturinis</div>
+                <div id="footer_title"><img src="res/img/cover.png" style="height: 60px;"/></div>
                 <a class="external_link_icon" href="https://facebook.com" target="_blank">
                     <i class="fab fa-facebook"></i>
                 </a>
